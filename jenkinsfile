@@ -1,12 +1,12 @@
 pipeline {
     agent any
     stages {
-       stages("Welcome to jenkins") {
-          steps {
-              script {
-                  println "Hi everyone,welcome to jenkins pipeline"
-}
-}
-}
-}
-}
+            stages("Welcome to jenkins"){
+                    steps {
+                          script {
+                                   println "Hi everyone,welcome to jenkins pipeline"
+                                 }
+                          }
+                    }
+             }
+        }
